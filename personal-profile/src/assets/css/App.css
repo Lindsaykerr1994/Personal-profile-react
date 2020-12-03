@@ -1,0 +1,24 @@
+/* Main Components */
+.main-component {
+    height: 100vh;
+    width: 100vw;
+}
+#homepage {
+    background-image: linear-gradient(to right bottom, rgb(74, 99, 124), rgb(37, 72, 100), rgb(33, 60, 83), rgb(29, 49, 67));
+}
+#aboutpage {
+    background-color: #FF8C08;
+}
+#skillspage {
+    background-color: blue;
+}
+#contactpage {
+    background-color: #FFF;
+}
+/* Display Specifications */
+.display-none {
+    display: none
+}
+.inline-block {
+    display: inline-block;
+}

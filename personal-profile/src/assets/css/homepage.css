@@ -1,0 +1,85 @@
+.scene {
+    position: relative;
+    height: 100vh;
+    text-align: center;
+    overflow: hidden;
+    background-size: cover;
+}
+.scene-background {
+    z-index: 1;
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    top: 0;
+    left: 0;
+    background: url("../media/binarypatternbg.png") 2% 2% repeat fixed;
+    opacity: 0.25;
+}
+.magic {
+    z-index: 2;
+    position: absolute;
+    top: calc(50% - 50px);
+    left: calc(50% - 50px);
+    width: 100px;
+    height: 100px;
+    background: url("../media/binarypatternbg.png") 2% 2% repeat fixed;
+    border-radius: 50%;
+}
+.portal {
+    z-index: 10;
+    height: 400px;
+    width: 380px;
+    position: absolute;
+    top: calc(50vh - 225px);
+    left: calc(50vw - 190px);
+    background-color: rgba(33,72,100,0.4);
+    border: 5px solid rgba(255,255,255,0.02);
+    transition: 0.8s;
+    -moz-transition: 0.8s;
+    -webkit-transition: 0.8s;
+}
+.portal:hover {
+    background-color: #FFF;
+    border: 5px solid rgba(33,72,100,1);
+}
+.home-logo-container {
+    height: 200px;
+    width: 200px;
+    margin: 30px auto 0px auto;
+    background: url("../media/whiteonlycrest.png");
+    background-size: contain;
+    transition: 0.8s;
+    -moz-transition: 0.8s;
+    -webkit-transition: 0.8s;
+}
+.portal:hover .home-logo-container {
+    background: url("../media/blueonlycrest.png");
+    background-size: contain;
+    transform: rotate(180deg);
+}
+.home-title-container {
+    color: #FFF;
+    transition: 0.8s;
+    -moz-transition: 0.8s;
+    -webkit-transition: 0.8s;
+}
+.portal:hover .home-title-container {
+    color: #213C53;
+}
+.portal .showonhover-header {
+    opacity: 0;
+}
+.portal:hover .showonhover-header {
+    opacity: 1;
+}
+/* Media Queries */
+@media screen and (max-height:400px){
+    .portal {
+        top: 0;
+        height: 100%;
+    }
+    .home-logo-container {
+        width: 150px;
+        height: 150px;
+    }
+}

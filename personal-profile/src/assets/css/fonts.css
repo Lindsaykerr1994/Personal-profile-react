@@ -1,0 +1,34 @@
+/* Import */
+@font-face {
+    font-family: Lovelo;
+    src: url(../fonts/lovelo_black.woff);
+}
+@font-face {
+    font-family: Norwester;
+    src: url(../fonts/norwester.woff);
+}
+.font-lovelo {
+    font-family: Lovelo;
+}
+.font-norwester {
+    font-family: Norwester;
+}
+/* Colour Specifications */
+.text-cyan-blue {
+    color: #213c53;
+}
+.text-white {
+    color: #FFF;
+}
+/* Align Specifications */
+.text-center {
+    text-align: center;
+}
+/* Weight Specifications */
+.font-200 {
+    font-weight: 200;
+}
+/* Transform Specification */
+.text-uppercase {
+    text-transform: uppercase;
+}
