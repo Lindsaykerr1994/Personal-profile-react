@@ -1,4 +1,10 @@
 /* Main Components */
+.App {
+    max-height: 100vh;
+    max-width: 100vw;
+    overflow: hidden !important;
+    position: relative;
+}
 .main-component {
     width: 100vw;
 }
