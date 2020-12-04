@@ -68,11 +68,13 @@
 }
 .portal .showonhover-header {
     opacity: 0;
+    transition: 0.8s;
+    -moz-transition: 0.8s;
+    -webkit-transition: 0.8s;
 }
 .portal:hover .showonhover-header {
     opacity: 1;
 }
-/* Media Queries */
 @media screen and (max-height:400px){
     .portal {
         top: 0;

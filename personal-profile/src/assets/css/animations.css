@@ -1,0 +1,85 @@
+.homepage-hide {
+    animation-name: moveHomePage;
+    animation-duration: 1.2s;
+    animation-fill-mode: forwards;
+}
+.moveTop {
+    animation-name: moveTop;
+    animation-duration: 1.2s;
+    animation-fill-mode: forwards;
+}
+.moveFromLeft {
+    top: 25px;
+    animation-name: moveFromLeft;
+    animation-duration: 1.2s;
+    animation-fill-mode: forwards;
+}
+.moveFromRight {
+    top: 25px;
+    animation-name: moveFromRight;
+    animation-duration: 1.2s;
+    animation-fill-mode: forwards;
+}
+.moveToLeft {
+    top: 25px;
+    animation-name: moveToLeft;
+    animation-duration: 1.2s;
+    animation-fill-mode: forwards;
+}
+.moveToRight {
+    top: 25px;
+    animation-name: moveToRight;
+    animation-duration: 1.2s;
+    animation-fill-mode: forwards;
+}
+/* Media Queries */
+
+@keyframes moveHomePage {
+    from {
+        top: 0px;
+    }
+    to {
+        top: calc(-100vh + 25px);
+    }
+}
+@keyframes moveTop {
+    from {
+        top: 100vh;
+    }
+    to {
+        top: 25px;
+    }
+}
+@keyframes moveFromLeft {
+    from {
+        left: -100vw;
+    }
+    to {
+        left: 0px;
+    }
+}
+@keyframes moveFromRight {
+    from {
+        right: -100vw;
+    }
+    to {
+        right: 0px;
+    }
+}
+@keyframes moveToRight {
+    from {
+        right: 0px;
+    }
+    to {
+        right: -100vw;
+        display: none;
+    }
+}
+@keyframes moveToLeft {
+    from {
+        left: 0px;
+    }
+    to {
+        left: -100vw;
+    }
+}
