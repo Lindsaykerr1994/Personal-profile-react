@@ -28,26 +28,25 @@ class App extends Component {
     }
     enterSite() {
         this.setState({
-            displayPage: "Bio",
+            displayPage: "Portfolio",
             pageAnimation: "moveTop",
             hidePage: "Home"
         });
     }
-    goToBio() {
-        if(this.state.displayPage === "Bio"){
+    goToPortfolio() {
+        if(this.state.displayPage === "Portfolio"){
 
         } else {
             if(this.state.displayPage === "Home"){
                 this.setState({
-                    displayPage: "Bio",
+                    displayPage: "Portfolio",
                     pageAnimation: "moveTop",
                     hidePage: "Home"
                 });
             } else {
                 var hidePage = this.state.displayPage;
-                console.log(hidePage);
                 this.setState({
-                    displayPage: "Bio",
+                    displayPage: "Portfolio",
                     pageAnimation: "moveFromLeft",
                     hidePage: hidePage,
                     hideAnimation: "moveToRight"
@@ -55,14 +54,14 @@ class App extends Component {
             }
         }
     }
-    goToPortfolio() {
-        if(this.state.displayPage === "Portfolio"){
+    goToBio() {
+        if(this.state.displayPage === "Bio"){
 
         } else {
-            if(this.state.displayPage === "Bio"){
+            if(this.state.displayPage === "Portfolio"){
                 this.setState({
                     pageAnimation: "moveFromRight",
-                    hidePage: "Bio",
+                    hidePage: "Portfolio",
                     hideAnimation: "moveToLeft"
                 });
             } else if (this.state.displayPage === "Home") {
@@ -80,7 +79,7 @@ class App extends Component {
                 })
             }
             this.setState({
-                displayPage: "Portfolio"
+                displayPage: "Bio"
             });
         }
     }

@@ -1,0 +1,8 @@
+#skills-container .skills-item{
+    width: 25%;
+    text-align: center;
+}
+.skills-icon {
+    font-size: 36px;
+    color: #a9a9a9;
+}

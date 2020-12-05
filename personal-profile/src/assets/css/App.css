@@ -28,7 +28,7 @@
 #skillspage {
     background-color: #FFF;
     position: absolute;
-    height: calc(100vh - 25px);
+    min-height: calc(100vh - 25px);
     scroll-snap-align: center;
 }
 #contactpage {
@@ -37,10 +37,14 @@
     height: calc(100vh - 25px);
     scroll-snap-align: center;
 }
-/* Display Specifications */
-.display-none {
-    display: none
+/* Component Specification */
+.component-content {
+    margin: 20px;
 }
-.inline-block {
-    display: inline-block;
+.component-header { 
+    padding-top: 20px;
+}
+.component-header h1 {
+    color: rgb(33,60,83);
+    font-size: 35px;
 }

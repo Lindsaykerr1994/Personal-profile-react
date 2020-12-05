@@ -1,0 +1,34 @@
+{
+    "Skills": [
+        {
+            "index": "1",
+            "name": "HTML5",
+            "logo": "SiHtml5",
+            "color": "#e34c26"
+        },
+        {
+            "index": "2",
+            "name": "CSS3",
+            "logo": "SiCss3",
+            "color": "#264ed4"
+        },
+        {
+            "index": "2",
+            "name": "JavaScript",
+            "logo": "SiJavascript",
+            "color": "#f0db4f"
+        },
+        {
+            "index": "2",
+            "name": "Python",
+            "logo": "SiPython",
+            "color": "#306998"
+        },
+        {
+            "index": "2",
+            "name": "PHP",
+            "logo": "SiPhp",
+            "color": "#787cb5"
+        }
+    ]
+}

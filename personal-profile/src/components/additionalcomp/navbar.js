@@ -10,12 +10,12 @@ class NavBar extends Component {
             <div className="navbar">
                 <div className="nav-items text-center text-white text-uppercase font-lovelo">
                     <div className="inline-block hvr-shutter-out-horizontal"
-                        onClick={this.props.goToBio}>
-                        Bio
-                    </div>
-                    <div className="inline-block hvr-shutter-out-horizontal"
                         onClick={this.props.goToPortfolio}>
                         Portfolio
+                    </div>
+                    <div className="inline-block hvr-shutter-out-horizontal"
+                        onClick={this.props.goToBio}>
+                        Bio
                     </div>
                     <div className="inline-block hvr-shutter-out-horizontal"
                         onClick={this.props.goToSkills}>
