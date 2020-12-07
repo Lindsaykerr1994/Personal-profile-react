@@ -51,6 +51,10 @@ class App extends Component {
                     hidePage: hidePage,
                     hideAnimation: "moveToRight"
                 });
+                var hidePageEl = hidePage.toLowerCase();
+                setTimeout(function(){
+                    $(`#${hidePageEl}page`).addClass("display-none");
+                }, 1200)
             }
         }
     }
@@ -59,11 +63,16 @@ class App extends Component {
 
         } else {
             if(this.state.displayPage === "Portfolio"){
+                var hidePage = this.state.displayPage;
                 this.setState({
                     pageAnimation: "moveFromRight",
                     hidePage: "Portfolio",
                     hideAnimation: "moveToLeft"
                 });
+                var hidePageEl = hidePage.toLowerCase();
+                setTimeout(function(){
+                    $(`#${hidePageEl}page`).addClass("display-none");
+                }, 1200)
             } else if (this.state.displayPage === "Home") {
                 this.setState({
                     pageAnimation: "moveTop",
@@ -71,12 +80,16 @@ class App extends Component {
                     hideAnimation: "moveToLeft"
                 });
             } else {
-                var hidePage = this.state.displayPage;
+                hidePage = this.state.displayPage;
                 this.setState({
                     pageAnimation: "moveFromLeft",
                     hidePage: hidePage,
                     hideAnimation: "moveToRight"
-                })
+                });
+                hidePageEl = hidePage.toLowerCase();
+                setTimeout(function(){
+                    $(`#${hidePageEl}page`).addClass("display-none");
+                }, 1200)
             }
             this.setState({
                 displayPage: "Bio"
@@ -94,6 +107,10 @@ class App extends Component {
                     hidePage: hidePage,
                     hideAnimation: "moveToRight"
                 });
+                var hidePageEl = hidePage.toLowerCase();
+                setTimeout(function(){
+                    $(`#${hidePageEl}page`).addClass("display-none");
+                }, 1200)
             } else if (this.state.displayPage === "Home") {
                 this.setState({
                     pageAnimation: "moveTop",
@@ -105,8 +122,11 @@ class App extends Component {
                     pageAnimation: "moveFromRight",
                     hidePage: hidePage,
                     hideAnimation: "moveToLeft"
-
-                })
+                });
+                hidePageEl = hidePage.toLowerCase();
+                setTimeout(function(){
+                    $(`#${hidePageEl}page`).addClass("display-none");
+                }, 1200)
             }
             this.setState({
                 displayPage: "Skills"
@@ -131,6 +151,10 @@ class App extends Component {
                     hidePage: hidePage,
                     hideAnimation: "moveToLeft"
                 });
+                var hidePageEl = hidePage.toLowerCase();
+                setTimeout(function(){
+                    $(`#${hidePageEl}page`).addClass("display-none");
+                }, 1200)
             }
         }
     }

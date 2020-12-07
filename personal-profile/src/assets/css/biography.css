@@ -1,0 +1,13 @@
+.portrait-container {
+    width: 175px;
+    height: 175px;
+    background-image: url("../media/bioport.png");
+    background-position: center;
+    background-size: contain;
+    border: 10px solid rgb(33,60,83);
+    border-radius: 50%;
+    float: left;
+}
+#biography-body {
+    padding: 0px 20px;
+}

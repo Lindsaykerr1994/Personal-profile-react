@@ -29,6 +29,7 @@
     z-index: 10;
     height: 400px;
     width: 380px;
+    box-sizing: border-box;
     position: absolute;
     top: calc(50vh - 225px);
     left: calc(50vw - 190px);
@@ -75,10 +76,10 @@
 .portal:hover .showonhover-header {
     opacity: 1;
 }
-@media screen and (max-height:400px){
+@media screen and (max-height:425px){
     .portal {
         top: 0;
-        height: 100%;
+        height: calc(100vh - 25px);
     }
     .home-logo-container {
         width: 150px;

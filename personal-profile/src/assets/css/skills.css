@@ -1,8 +1,16 @@
+#skills-container {
+    height: 600px;
+}
 #skills-container .skills-item{
     width: 25%;
+    height: 150px;
     text-align: center;
 }
 .skills-icon {
-    font-size: 36px;
+    font-size: 5em;
+    height: 110px;
     color: #a9a9a9;
+}
+.skills-icon svg {
+    padding-top: 15px;
 }
