@@ -1,34 +1,100 @@
 {
     "Skills": [
         {
-            "index": "1",
             "name": "HTML5",
             "logo": "SiHtml5",
+            "lib": "Si",
             "color": "#e34c26"
         },
         {
-            "index": "2",
             "name": "CSS3",
             "logo": "SiCss3",
+            "lib": "Si",
             "color": "#264ed4"
         },
         {
-            "index": "2",
             "name": "JavaScript",
             "logo": "SiJavascript",
+            "lib": "Si",
             "color": "#f0db4f"
         },
         {
-            "index": "2",
+            "name": "TypeScript",
+            "logo": "SiTypescript",
+            "lib": "Si",
+            "color": "#3178c6"
+        },
+        {
             "name": "Python",
             "logo": "SiPython",
+            "lib": "Si",
             "color": "#306998"
         },
         {
-            "index": "2",
             "name": "PHP",
             "logo": "SiPhp",
+            "lib": "Si",
             "color": "#787cb5"
+        },
+        {
+            "name": "MongoDB",
+            "logo": "SiMongodb",
+            "lib": "Si",
+            "color": "#4DB33D"
+        },
+        {
+            "name": "React",
+            "logo": "SiReact",
+            "lib": "Si",
+            "color": "#61DBFB"
+        },
+        {
+            "name": "Node.js",
+            "logo": "SiNodeDotJs",
+            "lib": "Si",
+            "color": "#3C873A"
+        },
+        {
+            "name": "Git",
+            "logo": "SiGit",
+            "lib": "Si",
+            "color": "#F1502F"
+        },
+        {
+            "name": "Heroku",
+            "logo": "SiHeroku",
+            "lib": "Si",
+            "color": "#6762A6"
+        },
+        {
+            "name": "Stack-Overflow",
+            "logo": "SiStackoverflow",
+            "lib": "Si",
+            "color": "#F48024"
+        },
+        {
+            "name": "Django",
+            "logo": "SiDjango",
+            "lib": "Si",
+            "color": "#092E20"
+        },
+        {
+            "name": "Microsoft Office",
+            "logo": "SiMicrosoftoffice",
+            "lib": "Si",
+            "color": "#DC3E15"
+        },
+        {
+            "name": "Amazon Web Services",
+            "logo": "SiAmazonaws",
+            "lib": "Si",
+            "color": "#FF9900"
+        },
+        {
+            "name": "MySQL",
+            "logo": "GrMysql",
+            "lib": "Gr",
+            "color": "#00758F"
         }
     ]
 }

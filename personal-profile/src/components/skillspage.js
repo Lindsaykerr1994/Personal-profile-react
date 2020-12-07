@@ -30,6 +30,7 @@ class SkillsPage extends Component {
                                         name = {details.name}
                                         logo = {details.logo}
                                         color = {details.color}
+                                        lib = {details.lib}
                                     />
                                 );
                             })}

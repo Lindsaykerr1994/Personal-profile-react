@@ -1,14 +1,28 @@
 import React, { Component } from 'react'; 
-import * as Fa from 'react-icons/si';
+import * as Si from 'react-icons/si';
+import * as Gr from 'react-icons/gr';
 import $ from 'jquery';
+
 
 class SkillsIcons extends Component {
     constructor(){
         super();
         this.state = {
-            classify: "Fa"
+            
         };
         this.hoverIconColour = this.hoverIconColour.bind(this);
+    }
+    createIcon(libName, iconName) {
+        let icon;
+        if(libName==="Si"){
+            icon = React.createElement(Si[iconName]);
+        }
+        if(libName==="Gr"){
+            icon = React.createElement(Gr[iconName]);
+        }
+        return icon;
+    }
+    componentDidMount() {
     }
     hoverIconColour(e) {
         var color = this.props.color;
@@ -20,15 +34,15 @@ class SkillsIcons extends Component {
         icon.style.color = "#a9a9a9";
     }
     render() {
+        
         return (
             <div className="skills-item inline-block">
                 <div className="skills-icon"
                     onMouseEnter={this.hoverIconColour}
                     onMouseLeave={this.returnIconColour}>
-                    {React.createElement(Fa[this.props.logo])}
+                    {this.createIcon((this.props.lib),(this.props.logo))}
                 </div>
                 <div>{this.props.name}</div>
-                <div>{this.props.color}</div>
             </div>
         )
     }
