@@ -9,7 +9,8 @@
 .skills-icon {
     font-size: 5em;
     height: 110px;
-    color: #a9a9a9;
+    width: 110px;
+    margin: auto;
 }
 .skills-icon svg {
     padding-top: 15px;

@@ -1,13 +1,18 @@
+#biography-body {
+    padding: 0px 20px;
+}
 .portrait-container {
     width: 175px;
     height: 175px;
-    background-image: url("../media/bioport.png");
-    background-position: center;
-    background-size: contain;
+    background-color: rgb(33,60,83);
     border: 10px solid rgb(33,60,83);
     border-radius: 50%;
     float: left;
+    margin: auto 25px auto 10px;
 }
-#biography-body {
-    padding: 0px 20px;
+.bio-text {
+    margin-bottom: 10px;
+}
+#biography-body h2, #biography-body p {
+    margin: 0;
 }

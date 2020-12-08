@@ -1,0 +1,39 @@
+{
+    "Projects": [
+    {
+        "title": "Battleships",
+        "img": "",
+        "link": "",
+        "description": "A remake of the classic game.",
+        "languages": ["HTML","JavaScript"]
+    },
+    {
+        "title": "Alexis Designs",
+        "img": "",
+        "link": "",
+        "description": "A website for a small independent business that specialises in quilts.",
+        "languages": ["HTML", "Bootstrap","JavaScript"]
+    },
+    {
+        "title": "Onwards And Upwards",
+        "img": "",
+        "link": "",
+        "description": "Was contracted to create a registration form that allowed users to create a profile with the company. This was integrated to an existing Wix website, although I additionally created the necessary supplementary pages.",
+        "languages": ["JavaScript", "React", "PHP"]
+    },
+    {
+        "title": "Grizzly Audio Packs",
+        "img": "",
+        "link": "",
+        "description": "A project submission for CodeInstitute, uses Stripe Payment API,Django frameworks for Python, All-Auth functionality to create accounts and save user details. Creates, reads, updates and deletes JSON data for sales, products and user details.",
+        "languages": ["Python", "Django", "Stripe"]
+    },
+    {
+        "title": "Clanker - Freelancer's Schedule",
+        "img": "",
+        "link": "",
+        "description": "A prototype for a freelancer's schedule planner, allowing users to create a client database, add, updadte and delete appointments, with all data being stored securely on MongoDB.",
+        "languages": ["Python", "MongoDB","JavaScript"]
+    }
+    ]
+}

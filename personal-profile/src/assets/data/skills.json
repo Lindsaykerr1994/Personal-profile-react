@@ -95,6 +95,24 @@
             "logo": "GrMysql",
             "lib": "Gr",
             "color": "#00758F"
+        },
+        {
+            "name": "Wix",
+            "logo": "SiWix",
+            "lib": "Si",
+            "color": "#000"
+        },
+        {
+            "name": "WordPress",
+            "logo": "SiWordpress",
+            "lib": "Si",
+            "color": "#00749C"
+        },
+        {
+            "name": "Stripe",
+            "logo": "SiStripe",
+            "lib": "Si",
+            "color": "#635BFF"
         }
     ]
 }

@@ -1,18 +1,18 @@
 import React, { Component } from 'react';
 import SkillsIcons from './additionalcomp/skillsicons';
 import '../assets/css/skills.css';
-import data from '../data/skills.json';
+import skillsdata from '../assets/data/skills.json';
 
 
 class SkillsPage extends Component {
     constructor(){
             super();
             this.state = {
-                data: {}
+                data: []
             };
         }
     componentDidMount() {
-        var dataJSON = data;
+        var dataJSON = skillsdata.Skills;
         this.setState({
             data: dataJSON
         });
@@ -27,7 +27,7 @@ class SkillsPage extends Component {
                 </div>
                 <div className="component-body">
                     <div id="skills-container">
-                        {data.Skills.map((details, i) => {
+                        {(this.state.data).map((details, i) => {
                             return(
                                 <SkillsIcons 
                                     key = {i}
